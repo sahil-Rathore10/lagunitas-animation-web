@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden !important;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#nav_top {
+  width: 94.2vw;
+  height: 12vh;
+  padding: 0 4.5vw 0 4vw;
+  left: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+#nav_top > img {
+  height: 50px;
+}
+#nav_top > button {
+  padding: 7px 16px;
+  font-family: "druk heavy";
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 24px;
+  color: #fff;
+  white-space: nowrap;
+  background-color: rgb(199, 29, 29);
+  border-style: none;
+  cursor: pointer;
+}
+
+#nav_top > i {
+  font-size: 2.5vw;
+  display: none;
+}
+
+/* nav left css */
+#nav_left {
+  width: 5vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  gap: 2vmax;
+  border-right: 2px solid rgb(43, 42, 42);
+}
+
+/* bottle image  */
+#bottle {
+  position: absolute;
+  height: 95vh;
+  top: 0%;
+  left: 38%;
+  z-index: 990;
+  border-image: 0 0 2vmax black;
+}
+
+#bottlecopy {
+  display: none;
+}
+
+/* page1 css */
+#page1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#page1 h1 {
+  width: 60vw;
+  background-color: rgb(253, 13, 13);
+  font-family: "Antom", sans-serif;
+  font-size: 13vw;
+  font-weight: 900;
+  text-align: center;
+  word-spacing: -1.5vw;
+  text-transform: uppercase;
+  line-height: 12vw;
+  background-image: url(img/texture.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+#page1_dog_image {
+  height: 15vh;
+  position: absolute;
+  top: 17%;
+  left: 34.5%;
+  transform: rotate(-30deg);
+}
