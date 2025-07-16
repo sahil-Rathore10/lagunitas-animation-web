@@ -120,3 +120,37 @@ body {
   left: 34.5%;
   transform: rotate(-30deg);
 }
+
+/* page2 css */
+
+#page2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.1vw 0 10vw;
+}
+
+#page2_part1 {
+  width: 25vw;
+  height: 79vh;
+}
+
+#page2_part1 h3 {
+  font-family: dancing script;
+  margin-bottom: 12px;
+}
+
+#page2_part1 h1 {
+  width: 25vw;
+  height: 30vh;
+  font-size: 7vw;
+  line-height: 14vh;
+  font-weight: 500;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  word-spacing: -1vmax;
+  background: url(img/texture.png);
+}
