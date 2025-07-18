@@ -192,3 +192,14 @@ body {
   box-shadow: 0 0 0.2vmax black;
   font-family: "Poppins", sans-serif;
 }
+#page2_part2 h3 {
+  font-size: 15px;
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+#page2_part2 h5 {
+  font-size: 13px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #666;
+}
