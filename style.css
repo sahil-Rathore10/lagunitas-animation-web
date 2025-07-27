@@ -283,3 +283,52 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 100;
 }
+/* page4 css */
+#page4 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+#page4_color_image1 {
+  width: 20vw;
+  margin: 0vh 0 0 20vh;
+}
+#page4_color_image1_text {
+  width: 13vw;
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  color: #fff;
+  text-align: center;
+}
+#page4_color_image1_text h4 {
+  width: 8vw;
+  margin-bottom: 1vh;
+  margin-left: 3vmax;
+  font-family: "Anton", sans-serif;
+  border-bottom: 0.2vmax solid #000;
+  font-weight: 100;
+  letter-spacing: 0.1vmax;
+}
+
+#page4_color_image2 {
+  width: 21vw;
+  margin: 26vh 0 0 -6vh;
+}
+#page4_color_image2_text {
+  width: 13vw;
+  position: absolute;
+  top: 32%;
+  left: 33%;
+  color: #fff;
+  text-align: center;
+}
+#page4_color_image2_text h4 {
+  width: 4vw;
+  margin-left: 5vmax;
+  font-family: "Anton", sans-serif;
+  border-bottom: 0.2vmax solid #000;
+  font-weight: 100;
+  letter-spacing: 0.1vmax;
+}
