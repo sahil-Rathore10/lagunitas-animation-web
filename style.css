@@ -310,6 +310,7 @@ body {
   border-bottom: 0.2vmax solid #000;
   font-weight: 100;
   letter-spacing: 0.1vmax;
+  text-transform: uppercase;
 }
 
 #page4_color_image2 {
@@ -331,4 +332,35 @@ body {
   border-bottom: 0.2vmax solid #000;
   font-weight: 100;
   letter-spacing: 0.1vmax;
+  text-align: center;
+  text-transform: uppercase;
+}
+#page4_color_image3 {
+  width: 25vw;
+  margin: 20vh 0 0 40vh;
+}
+#page4_color_image3_text {
+  width: 15vw;
+  position: absolute;
+  top: 30%;
+  left: 74%;
+  color: #fff;
+  text-align: center;
+}
+#page4_color_image3_text h4 {
+  width: 8vw;
+  margin-bottom: 1vh;
+  margin-left: 3.5vmax;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  border-bottom: 0.2vmax solid #000;
+  font-weight: 100;
+  letter-spacing: 0.1vmax;
+}
+
+#page4_color_image4 {
+  width: 16vw;
+  height: 50vh;
+  margin: 45vh 0 0 -165vh;
+  transform: rotate(-17deg);
 }
